@@ -12,7 +12,7 @@ namespace Vidzy
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime RealeaseDate { get; set; }
-        public IList<Genre> Genres { get; set; }
+        public Genre VideoGenre { get; set; }
     }
 
     public class Genre

@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201908201848568_PopulateGenresTable.Designer.cs">
       <DependentUpon>201908201848568_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908201917528_EditGenreColumnInVideosTable.cs" />
+    <Compile Include="Migrations\201908201917528_EditGenreColumnInVideosTable.Designer.cs">
+      <DependentUpon>201908201917528_EditGenreColumnInVideosTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908201848568_PopulateGenresTable.resx">
       <DependentUpon>201908201848568_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908201917528_EditGenreColumnInVideosTable.resx">
+      <DependentUpon>201908201917528_EditGenreColumnInVideosTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
