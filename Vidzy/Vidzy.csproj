@@ -62,6 +62,10 @@
     <Compile Include="Migrations\201908201917528_EditGenreColumnInVideosTable.Designer.cs">
       <DependentUpon>201908201917528_EditGenreColumnInVideosTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908210230114_AddClassificationColumnToVideosTable.cs" />
+    <Compile Include="Migrations\201908210230114_AddClassificationColumnToVideosTable.Designer.cs">
+      <DependentUpon>201908210230114_AddClassificationColumnToVideosTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908201917528_EditGenreColumnInVideosTable.resx">
       <DependentUpon>201908201917528_EditGenreColumnInVideosTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908210230114_AddClassificationColumnToVideosTable.resx">
+      <DependentUpon>201908210230114_AddClassificationColumnToVideosTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
